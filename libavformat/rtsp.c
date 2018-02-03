@@ -950,7 +950,7 @@ static void rtsp_parse_transport(AVFormatContext *s,
                 }
             } else if (!strcmp(parameter, "interleaved")) {
 		/*
-		 * Workarounf for some chinese cameras 
+		 * Workaround for some chinese cameras 
 		 * This should be safe as RFC states that 'interleaved' is for TCP 
 		 * ref Page 40 of rfc2326 
 		 */    
