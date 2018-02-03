@@ -951,7 +951,7 @@ static void rtsp_parse_transport(AVFormatContext *s,
             } else if (!strcmp(parameter, "interleaved")) {
 		/*
 		 * Workarounf for some chinese cameras 
-		 * This should be sabe as RFC states that 'interleaved' is for TCP 
+		 * This should be safe as RFC states that 'interleaved' is for TCP 
 		 * ref Page 40 of rfc2326 
 		 */    
 		th->lower_transport = RTSP_LOWER_TRANSPORT_TCP;
